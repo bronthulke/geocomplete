@@ -1,5 +1,5 @@
 /**
- * jQuery Geocoding and Places Autocomplete Plugin - V 1.7.0
+ * jQuery Geocoding and Places Autocomplete Plugin - V 1.8.0
  *
  * @author Martin Kleppe <kleppe@ubilabs.net>, 2016
  * @author Ubilabs http://ubilabs.net, 2016
@@ -534,6 +534,11 @@
       this.marker.setPosition(this.data.location);
       this.setDetail(this.details.lat, this.data.location.lat());
       this.setDetail(this.details.lng, this.data.location.lng());
+    },
+
+    // Clear the marker off the map (though the location details will still be set)
+    clearMarker: function () {
+      this.marker.setPosition(undefined);
     },
 
     // Update the plugin after the user has selected an autocomplete entry.

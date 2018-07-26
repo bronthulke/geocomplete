@@ -1,6 +1,6 @@
 {
   "name": "geocomplete",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "An advanced jQuery plugin that wraps the Google Maps API's [Geocoding](https://code.google.com/apis/maps/documentation/javascript/geocoding.html) and [Places Autocomplete](https://code.google.com/apis/maps/documentation/javascript/places.html#places_autocomplete) services. You simply provide an input that lets you search for locations with a nice autocomplete dropdown. Optionally add a container to show an interactive map and a form that will be populated with the address details.",
   "main": "jquery.geocomplete.js",
   "directories": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "docco": "^0.6.3",
-    "uglifyjs": "^2.3.6"
+    "uglify-js": "^2.3.6"
   },
   "devDependencies": {
     "grunt": "^0.4.5",

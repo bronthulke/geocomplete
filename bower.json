@@ -1,9 +1,10 @@
 {
   "name": "geocomplete",
-  "version": "1.7.0",
-  "homepage": "http://ubilabs.github.com/geocomplete/",
+  "version": "1.8",
+  "homepage": "http://bronthulke.github.com/geocomplete/",
   "authors": [
-    "Martin Kleppe <kleppe@ubilabs.net>"
+    "Martin Kleppe <kleppe@ubilabs.net>",
+    "Bron Thulke <bron@angelwebdesigns.com.au>"
   ],
   "description": "jQuery Geocoding and Places Autocomplete Plugin",
   "main": "jquery.geocomplete.js",
