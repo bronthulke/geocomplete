@@ -558,7 +558,12 @@
         // Use the input text if it already gives geometry.
         this.update(place);
       }
-    }
+    },
+
+    setMapStyling: function (styleName, styledMapType) {
+        this.map.mapTypes.set(styleName, styledMapType);
+        this.map.setMapTypeId(styleName);
+    },
   });
 
   // A plugin wrapper around the constructor.

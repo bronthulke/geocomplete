@@ -1,6 +1,7 @@
 Version 1.8
 
 * Add function for clearMarker 
+* Add ability to set a style for map
 
 Version 1.7
 
